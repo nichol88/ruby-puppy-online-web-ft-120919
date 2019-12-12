@@ -16,8 +16,11 @@ class Dog
   end
 
   def self.print_all
-    @@all.map{ |e|
+    a = @@all.map{ |e|
       e.name
     }.join(" ")
+
+    puts a
+    
     end
 end
