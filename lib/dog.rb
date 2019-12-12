@@ -25,5 +25,5 @@ class Dog
   def self.save
     self << @@all if !@@all.include?(self)
   end
-  
+
 end
